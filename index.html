@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="/img/the.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+   <!--nav menu-->
+   <div class="container">
+    <nav id="header">
+        <div class="nav-logo">
+            <img src="/img/the.svg"  alt="logo" class="logo">
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link-active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link-active-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link-active-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link-active-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div>
+        <!--darkmode-->
+        <div class="mode">
+            <div class="moon-sun" id="toggle-switch">
+                
+                <i class="fa fa-sun" id="sun"></i>
+            </div>
+        </div>
+        <div class="nav-menu-btn">
+    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+   </div>
+ </nav>
+<!--main-->
+<main class="wrapper">
+    <section class="featured-box" id="home">
+        <div class="featured-text">
+            <div class="hello">
+                <p>Hello, I'm</p>
+            </div>
+            <div class="featured-name">
+                <span class="typedText"></span>
+            </div>
+            <div class="text-info">
+                <p>My name is Patricia! I'm a web developer.</p>
+            </div>
+            <div class="text-btn">
+                <button class="projects-btn">
+                    <a href="#projects">Projects</a>
+                </button>
+                <button class="btn">Download CV<i class="uil uil-file"></i></button>
+            </div>
+            <div class="social_icons">
+                <div class="icon_circle"></div>
+                    <div class="icon"><i class="uil uil-instagram"></i></div>
+                    <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                    <div class="icon"><i class="uil uil-github-alt"></i></div>
+                    <div class="icon"><i class="uil uil-behance-alt"></i></div>
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="/img/profilepic.png" alt="">
+                </div>
+            </div>
+    </section>
+
+    <!--about-->
+
+    <section class="section" id="about">
+        <div class="top-header">
+            <h1>About Me</h1>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <figure class="about-me">
+                        <figcaption>
+                            <img src="/img/profilepic.png" alt="" class="profile"/>
+                            <h2>Web developer</h2>
+                            <p>My name is Patricia, I'm a web developer.</p>
+                        </figcaption>
+                    </figure>
+                    <a href="https://github.com/pjustinianogarcia" target="_blank" class="about-me-btn">Github</a>
+                </div>
+            </div>
+            <div class="skill">
+                <div class="skill-box">
+                    <span class="tittle">HTML</span>
+                    <div class="skill-bar">
+                        <span class="skill-per html">
+                            <span class="tooltip">80%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="tittle">CSS</span>
+                    <div class="skill-bar">
+                        <span class="skill-per css">
+                            <span class="tooltip">50%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="tittle">JavaScript</span>
+                    <div class="skill-bar">
+                        <span class="skill-per js">
+                            <span class="tooltip">40%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="tittle">React</span>
+                    <div class="skill-bar">
+                        <span class="skill-per react">
+                            <span class="tooltip">30%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="tittle">Angular</span>
+                    <div class="skill-bar">
+                        <span class="skill-per angular">
+                            <span class="tooltip">20%</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Project box-->
+    <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Projects</h1>
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Meet App</h3>
+                <p>The meet app is a Progresive Web Application built using React.  Built as a single Page Applpication(SPA). Users can look up events by city. They can dowload the icon to their homepage. The app can use offline once the event data is saved in the browser.</p>
+                <a href="https://pjustinianogarcia.github.io/meet/">See live site</a>
+                <a href="https://github.com/pjustinianogarcia/meet">See project on GitHub</a>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Pokedex App</h3>
+                <p>Basic JavaScript app simulating a Pokedex that loads data from PokeAPI.co. It provides users with a list of the original
+                    151 Pokemons. Users can then click  on a Pokemon card and a modal opens up providing details about the Pokemon such as height and image.
+                </p>
+                <a href="https://pjustinianogarcia.github.io/meet/">See live site</a>
+                <a href="https://github.com/pjustinianogarcia/meet">See project on GitHub</a>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Movie API</h3>
+                <p>Aa back-end for "movies" app using Mongo DB as it's non-relational database. Contains different collections to store data. Includes a user collections with HTML authentication and JTW token auth. </p>
+                <a href="https://movie-api-3jxi.onrender.com">Live site</a>
+                <a href="https://pjustinianogarcia.github.io/movie_api/">See project on GitHub</a>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Movie App</h3>
+                <p>Client side for a "movies" app. Users can look up movies by name , navigate to their profile  and add movies to their favorites.</p>
+                <a href="https://myflixclientachv3.netlify.app/">Live site</a>
+                <a href="https://github.com/pjustinianogarcia/myFlix-client">See project on GitHub</a>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Movie App</h3>
+                <p>Client side application for movies that fetches data from a "movies" API. It uses Angular's built-in router to navigate between components. The app is served as a Single Page Applicatioon(SPA)</p>
+                <a href="https://pjustinianogarcia.github.io/meet/">See live site</a>
+                <a href="https://github.com/pjustinianogarcia/myFlix-Angular-client">See project on GitHub</a>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>Chat App</h3>
+                <p>Chat room  aplication using React Native built to work for Android and iOS. Users can input a username and join a chat where they exchage messages, images and location with other users.</p>
+                <a href="https://pjustinianogarcia.github.io/meet/">See live site</a>
+                <a href="https://github.com/pjustinianogarcia/Chat-App">See project on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!--contact-->
+    <section class="section" id="contact">
+        <div class="top-header">
+            <h1>Contact</h1>
+            <span>Do you have a project in mind?</span>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="contact-info">
+                  <h2>Find me <i class="uil uil-corner-right-down"></i></h2>
+                  <p><i class="uil uil-envelope">Email: pjustinianogarcia@gmail.com</i></p>
+                  <p><i class="uil uil-phone">Phone: 787-237-7269</i></p>
+                  <p><i class="uil uil-github-alt"><a>https://github.com/pjustinianogarcia</a></i></p>
+                  <p><i class="uil uil-linkedin-alt"><a>https://www.linkedin.com/in/patriciajustinianogarcia/</a></i></p>
+                </div>
+            </div>
+            </div>
+    </section>
+</main>
+<!--footer-->
+<footer>
+    <div class="middle-footer">
+        <ul class="footer-menu">
+            <li class="footer_menu_list">
+                <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+                <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-social-icons">
+        <div class="icon"><i class="uil uil-instagram"></i></div>
+        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+        <div class="icon"><i class="uil uil-github-alt"></i></div>
+        <div class="icon"><i class="uil uil-behance-alt"></i></div>
+    </div>
+    <div class="bottom-footer">
+        <p>Copyright<a href="home" style="text-decoration: none;"></a></p>
+    </div>
+</footer>
+   </div>
+   <script src="script.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+</body>
+</html>
