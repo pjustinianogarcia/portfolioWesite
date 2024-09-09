@@ -289,14 +289,7 @@ i {
         border: 2px solid #c40101;
         left: 95px;
     }
-    75% {
-        border: 2px solid #8749f2;
-        left: 170px;
-    }
-    100% {
-        border: 2px solid #47ea15;
-        left: 240px;
-    }
+
 }
 
 .social_icons:hover .icon_circle {
@@ -535,7 +528,7 @@ i {
     align-items: center;
     flex-direction: column;
     width: 30%;
-    height: 300px;
+    height: 500px;
     background: transparent;
     border: 2px solid #fff;
     border-radius: 20px;
@@ -567,6 +560,13 @@ i {
 .project-box a:hover {
     text-decoration: underline;
     color: #8749f2;
+}
+
+.project-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 
 .top-header span {
