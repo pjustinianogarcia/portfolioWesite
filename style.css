@@ -357,6 +357,10 @@ i {
     margin-bottom: 10px;
 }
 
+#WD {
+    color: #8749f2;
+}
+
 /*--aboutinfo--*/
 
 .about-info {
@@ -470,11 +474,11 @@ i {
 
 .skill-per.html {
     animation-delay: 0.1s;
-    width: 60%;
+    width: 70%;
 }
 .skill-per.css {
     animation-delay: 0.1s;
-    width: 50%;
+    width: 70%;
 }
 .skill-per.js {
     animation-delay: 0.1s;
