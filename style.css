@@ -271,26 +271,9 @@ i {
     cursor: pointer;
 }
 
-.icon_circle {
-    position: absolute;
-    transform: transform(-50%, -50%);
-    width: 40px;
-    height: 40px;
-    border-radius: 50px;
-    animation: iconSlide 4s infinite alternate;
-}
 
-@keyframes iconSlide {
-    25% {
-        border: 2px solid #e6d12e;
-        left: 25px;
-    }
-    50% {
-        border: 2px solid #c40101;
-        left: 95px;
-    }
 
-}
+
 
 .social_icons:hover .icon_circle {
     animation-play-state: paused;
